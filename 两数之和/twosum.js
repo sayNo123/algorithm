@@ -18,5 +18,5 @@ const twoSum = function (nums, target) {
     diffs[nums[i]] = i;
   }
 };
-var numArr = [11, 15, 2, 7]
+let numArr = [11, 15, 2, 7]
 console.log(twoSum(numArr, 9))
